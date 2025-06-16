@@ -1,0 +1,7 @@
+{
+  "warnonruncommand.warn": "⚠ A click event attempted to run this command: ",
+  "warnonruncommand.tooltip": "Click to paste this command into chat",
+  "text.autoconfig.warn-on-run_command.title": "Warn on run_command",
+  "text.autoconfig.warn-on-run_command.option.enabled": "Enabled",
+  "text.autoconfig.warn-on-run_command.option.whitelist": "Whitelist"
+}

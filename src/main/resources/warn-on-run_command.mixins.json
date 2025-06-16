@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "theooolone.warnonruncommand.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "StyleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

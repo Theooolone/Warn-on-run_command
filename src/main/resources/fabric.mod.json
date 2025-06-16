@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "warn-on-run_command",
+	"version": "${version}",
+	"name": "Warn on run_command",
+	"description": "Warns the player if they're about to execute a run_command click event.",
+	"authors": [
+		"Theooolone"
+	],
+	"contact": {
+		"sources": "https://github.com/Theooolone/Warn-on-run_command"
+	},
+	"license": "CC-BY-4.0",
+	"icon": "assets/warn-on-run_command/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": ["theooolone.warnonruncommand.WarnOnRunCommand"],
+		"modmenu": ["theooolone.warnonruncommand.ModMenuIntegration"]
+	},
+	"mixins": [
+		"warn-on-run_command.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"cloth-config": ">=18.0.145"
+	},
+	"suggests": {
+	}
+}
